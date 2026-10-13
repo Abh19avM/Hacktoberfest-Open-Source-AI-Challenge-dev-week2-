@@ -67,8 +67,8 @@ flowchart TD
 
 ### 2. Installation
 ```bash
-git clone https://github.com/your-username/vault-invoice-ai.git
-cd vault-invoice-ai
+git clone https://github.com/Abh19avM/Hacktoberfest-Open-Source-AI-Challenge-dev-week2-.git
+cd Hacktoberfest-Open-Source-AI-Challenge-dev-week2-
 
 npm install
 ```

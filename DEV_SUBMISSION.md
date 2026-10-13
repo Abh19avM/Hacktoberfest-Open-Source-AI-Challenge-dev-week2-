@@ -38,7 +38,7 @@ Every tax season, freelancers lose hours deciphering messy folders of receipts, 
 ## Code
 
 The complete source code is open source under the MIT License:
-👉 **Repository:** [GitHub Repository Placeholder: https://github.com/your-username/vault-invoice]
+👉 **Repository:** https://github.com/Abh19avM/Hacktoberfest-Open-Source-AI-Challenge-dev-week2-
 
 ### Tech Stack:
 - **Core Engine:** Open-weight LLMs via [Ollama](https://ollama.com) (`llama3.1:8b`, `mistral:latest`, `gemma2`)
