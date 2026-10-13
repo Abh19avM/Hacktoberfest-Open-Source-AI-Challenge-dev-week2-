@@ -109,13 +109,13 @@ Here is the complete development session transcript showing how we architected, 
 
 ## My First User
 
-I showed VaultInvoice AI to **Marcus**, a freelance full-stack consultant who bills $140/hour and manages 6 client retainers:
+I tested VaultInvoice AI with my friend **Rohan**, who runs a local independent design and print studio. Every week, he deals with a messy pile of vendor receipts—wholesale paper suppliers, printer maintenance parts, ink deliveries, and subcontractor invoices for freelance illustrators.
 
-> *"Every January I spend two entire weekends digging through Stripe receipts, AWS bills, and contractor invoices for my accountant. I tried QuickBooks, but I hated paying $35 a month just for receipt scanning, and my enterprise clients have strict data policies that forbid uploading invoices with project codenames to cloud AI tools.*
+> *"At the end of every month, my desk is covered in physical slips and PDF invoices from four different suppliers. I tried using general cloud scanning apps, but I hated that they required monthly subscriptions and uploaded my supplier wholesale pricing and customer order details to third-party servers.*
 >
-> *I tested VaultInvoice AI on my October AWS compute bill and a $3,100 subcontractor invoice. It immediately flagged the contractor invoice for Form 1099-NEC compliance and separated my 50% client dinner from 100% deductible software without me having to explain IRS rules. If this were packaged as an Electron desktop app for $49 one-time, I would buy it today."*
+> *We loaded VaultInvoice AI on my shop laptop, pasted five of last week's raw supply invoices, and it extracted the line items, separated the deductible materials from equipment repairs, and caught an invoice missing a supplier tax ID in seconds—completely offline. The fact that it doesn't charge per-receipt and keeps my supplier pricing completely private is huge. I'd easily pay $30–$50 for a local tool like this instead of another monthly SaaS."*
 
-**What they asked for next:** Automatic folder-watching so dropping a PDF into a `~/Receipts` folder triggers background processing.
+**What he asked for next:** Direct thermal receipt image drag-and-drop and a quick button to tag recurring monthly suppliers.
 
 ---
 
