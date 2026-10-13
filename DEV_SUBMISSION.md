@@ -97,6 +97,16 @@ Open innovation is not just an implementation detail for VaultInvoice AI—**it 
 
 ---
 
+## My Agent Session
+
+Here is the complete development session transcript showing how we architected, built, and tested VaultInvoice AI from start to finish:
+
+{% agent_session 864 %}
+
+*(Direct link: [https://dev.to/agent_sessions/building-vaultinvoice-ai-zero-knowledge-expense-auditor-for-freelancers-limi5e](https://dev.to/agent_sessions/building-vaultinvoice-ai-zero-knowledge-expense-auditor-for-freelancers-limi5e))*
+
+---
+
 ## My First User
 
 I showed VaultInvoice AI to **Marcus**, a freelance full-stack consultant who bills $140/hour and manages 6 client retainers:
