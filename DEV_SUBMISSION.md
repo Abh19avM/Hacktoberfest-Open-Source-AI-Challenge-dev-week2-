@@ -8,7 +8,7 @@ tags: devchallenge, hf26challenge, ai, opensource
 
 ## What I Built
 
-**VaultInvoice AI** is a zero-knowledge, local-first invoice and receipt auditor built specifically for freelancers, independent contractors, and solo agency operators.
+**VaultInvoice AI** is a zero-knowledge, local-first invoice and receipt auditor built for freelancers, independent contractors, and solo agency operators.
 
 ### The Problem It Solves
 Every tax season, freelancers lose hours deciphering messy folders of receipts, digital subscription PDFs, and subcontractor invoices. Existing expense tools like QuickBooks ($35/month), Dext ($30/month), and Expensify ($9/seat) suffer from two major flaws for solo operators:
@@ -25,24 +25,25 @@ Every tax season, freelancers lose hours deciphering messy folders of receipts, 
 ## Demo
 
 - **Local Preview:** Running on `http://localhost:5173/` with full real-time model streaming, token telemetry, and IRS Schedule C tax summaries.
-- **Key Features Demonstrated:**
+- **Key Features:**
   - Ingestion of messy invoices and receipts (AWS cloud hosting, freelance subcontractor design bills, client dinners, equipment purchases).
   - On-the-fly extraction of Vendor, Invoice #, Dates, Line Items, and Totals.
   - Automatic classification into IRS Form 1040 Schedule C write-off buckets (Line 18 Office & Software, Line 11 Contract Labor, Line 24b 50% Meals, Line 13 Section 179 Equipment).
   - Instant audit risk scoring flagging missing vendor tax IDs or unitemized cash payments.
   - One-click export to Schedule C CSV, full audit JSON, and a copy-paste CPA briefing.
+  - Minimal Linear/Raycast-inspired design with inline item expansion and zero visual fluff.
 
 ---
 
 ## Code
 
 The complete source code is open source under the MIT License:
-👉 **Repository:** [GitHub Repository Placeholder / Local Source: `d:/Hacktoberr/dev-week-2`]
+👉 **Repository:** [GitHub Repository Placeholder: https://github.com/your-username/vault-invoice]
 
 ### Tech Stack:
 - **Core Engine:** Open-weight LLMs via [Ollama](https://ollama.com) (`llama3.1:8b`, `mistral:latest`, `gemma2`)
-- **Frontend:** Vanilla CSS with custom glassmorphism design tokens & Vite
-- **UI Components & Visuals:** Lucide Icons, Canvas Confetti
+- **Frontend:** Vanilla CSS with sleek Linear/Raycast design tokens & Vite
+- **UI Components & Visuals:** Canvas Confetti, native responsive flex/grid
 - **Proxy Layer:** Vite local reverse proxy `/api/ollama` connecting directly to `127.0.0.1:11434` without CORS friction
 
 ---
